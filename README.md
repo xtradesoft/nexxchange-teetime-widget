@@ -2,7 +2,11 @@
 TeeTime widget to book within the Nexxchange portal <https://www.nexxchange.com>
 
 ## Overview
-The example HTML code <https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/index.html> shows exactly how to implement the **Nexxchange** tee time widget. It is only copy and paste.
+The example HTML code <https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/index.html> shows exactly how to implement the **Nexxchange** tee time widget. 
+
+It is only a simple copy and paste.
+
+`Pull Requests` are welcome.
 
 ### Widget parameters
 
@@ -17,7 +21,7 @@ The widget has one public function "reload" which accepts the following paramete
 * **minutes**
 
 ### Styling
-Size and appearance can be adjusted individually using standard CSS
+Size, color, etc. can be adjusted individually using standard CSS
 
 ### Example
 
