@@ -1,12 +1,27 @@
-# nexxchange-teetime-widget
-TeeTime widget to book within the Nexxchange portal
+# Nexxchange TeeTime Widget
+TeeTime widget to book within the Nexxchange portal <https://www.nexxchange.com>
 
-## This is the example page to see how to implement the nexxchange tee time widget.
-The widget will accept the following parameter:
-* issuer
-This is to define which golfclub tee times should get queryed.
+## Overview
+The example HTML code <https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/index.html> shows exactly how to implement the **Nexxchange** tee time widget. It is only copy and paste.
 
-The widget has the public function "reload" which accept the following parameter
-* date 	(dd.mm.yyyy)
-* hour
-* minutes
+### Widget parameters
+
+* **issuer**
+
+This is to define for which golfclub the tee times should get displayed.
+
+The widget has one public function "reload" which accepts the following parameters
+
+* **date** 	(dd.mm.yyyy)
+* **hour**
+* **minutes**
+
+### Styling
+Size and appearance can be adjusted individually using standard CSS
+
+### Example
+
+<img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget.png?raw=true" alt="alt text" width="800">
+
+
+
