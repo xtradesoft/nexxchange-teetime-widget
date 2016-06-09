@@ -24,7 +24,8 @@
             position: fixed;
             background-image: url("img/golf-foto.jpeg");
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: auto 100%;
+		    background-position-x: 50%;
         }
 </style>
 </head>
@@ -44,19 +45,20 @@
         </div>
     </div>
 
-    <div class="jumbotron col-sm-6 teetime1">
         <h3>Startzeiten des Golfclub Kitzbühel</h3>
         <div class="container">
+    <div class="well col-sm-5 teetime1">
+        <div class="container col-sm-12">
             <div><p>Datum: <input type="text" id="datepicker"></p></div>
-            <div id="teetimecontainer" class="col-sm-10 well" style="overflow: auto; max-height: 30vh;"></div>
+            <div id="teetimecontainer" class="col-sm-12 well" style="overflow: auto; max-height: 30vh;"></div>
         </div>
     </div>
 
-    <div class="teetime2 well col-sm-6">
+    <div class="teetime2 well col-sm-5 col-sm-offset-2">
         <h3>Startzeiten Golf Senza Confini Tarvisio</h3>
         <div class="container col-sm-12">
             <div><p>Datum: <input type="text" id="datepicker2"></p></div>
-            <div id="teetimecontainer2" class="col-sm-12" style="overflow: auto; max-height: 50vh;"></div>
+            <div id="teetimecontainer2" class="col-sm-12" style="overflow: auto; max-height: 30vh;"></div>
         </div>
     </div>
 </div>
