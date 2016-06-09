@@ -53,7 +53,7 @@
 
     <!-- 1st widget markup sample -->
     <div class="well col-md-5 teetime1">
-        <h3>Startzeiten des Golfclub Ottenstein</h3>
+        <h3>Startzeiten des GC Ottenstein</h3>
         <div class="col-md-12">
             <div><p>Datum: <input type="text" id="datepicker"></p></div>
             <div id="teetimecontainer" class="well col-md-12 table-responsive" style="overflow: auto; max-height: 30vh;"></div>
@@ -90,6 +90,8 @@
         jQuery( "#datepicker" ).datepicker({
             "dateFormat": "dd.mm.yy",
             "minDate": 0,
+            showOn: "both",
+            buttonImage: "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif",
             "onSelect": function(date, inst) {
                 jQuery('#teetimecontainer').teetime('reload', { "date": date});
             }
