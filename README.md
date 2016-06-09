@@ -27,5 +27,10 @@ Size, color, etc. can be adjusted individually using standard CSS
 
 <img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget.png?raw=true" alt="alt text" width="800">
 
+### License
+
+Apache
+
+
 
 
