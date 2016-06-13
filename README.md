@@ -11,6 +11,8 @@ It is only a simple copy and paste.
 ### Widget parameters
 
 * **issuer**
+* showBookingButton(default: true) Optional allows to en/disable the booking button
+* onlyShowAvailable(default: false) Optional allows to show only available greenfee's
 
 This is to define for which golfclub the tee times should get displayed.
 
