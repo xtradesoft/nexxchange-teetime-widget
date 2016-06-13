@@ -11,10 +11,25 @@ It is only a simple copy and paste.
 ### Widget parameters
 
 * **issuer**
-* showBookingButton(default: true) Optional allows to en/disable the booking button
-* onlyShowAvailable(default: false) Optional allows to show only available greenfee's
 
-This is to define for which golfclub the tee times should get displayed.
+	This is to define for which golfclub the tee times should get displayed.
+
+* **showBookingButton**
+
+	(default: true) Optional, allows to en/disable the booking button
+	
+* **onlyShowAvailable**
+
+	(default: false) Optional, allows to show only available greenfees
+	
+* **i18n**
+
+	Optional, defines the used translation in the widget.
+
+	* booking: "Buchen"
+	* available: "verfügbar"
+	* noGreenfees: 'Greenfees konnten nicht geladen werden!'
+
 
 The widget has one public function "reload" which accepts the following parameters
 
