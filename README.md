@@ -50,6 +50,8 @@ Size, color, etc. can be adjusted individually using standard CSS
 
 [GC Velden] (http://www.golfvelden.at/en/book-tee-time.html)
 
+[AlpeAdria Golf] (http://www.alpeadriagolffriuli.com/de/tarvis/teetime-buchen.html)
+
 ### License
 
 Apache
