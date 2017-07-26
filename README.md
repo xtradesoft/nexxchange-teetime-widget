@@ -22,6 +22,10 @@ It is only a simple copy and paste.
 
 	(default: false) Optional, allows to show only available greenfees
 	
+* **course**
+
+        Optional, integer value, server only sends tee times for selected golf course.
+	
 * **i18n**
 
 	Optional, defines the used translation in the widget.
