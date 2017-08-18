@@ -56,6 +56,8 @@ Size, color, etc. can be adjusted individually using standard CSS
 
 [AlpeAdria Golf Tarvisio] (http://www.teetimealpeadriagolf.com/de/golfplatz-buchen/tarvis.html)
 
+[Golf & Seen] (http://attersee.salzkammergut.at/sommer/golfen.html)
+
 ### License
 
 Apache
