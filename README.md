@@ -12,7 +12,7 @@ It is only a simple copy and paste.
 
 * **issuer**
 
-	This is to define for which golfclub the tee times should be displayed.
+	This is to define for which `golfclub` the tee times should be displayed.
 
 * **showBookingButton**
 
@@ -20,11 +20,11 @@ It is only a simple copy and paste.
 	
 * **onlyShowAvailable**
 
-	(default: false) Optional, allows to show only available tee timed
+	(default: false) Optional, allows to show only available tee time
 	
 * **course**
 
-        Optional, integer value, server only sends tee times for selected golf course.
+    Optional, integer value, server only sends tee times for the selected golf course.
 	
 * **i18n**
 
@@ -44,9 +44,11 @@ The widget has one public function "reload" which accepts the following paramete
 ### Styling
 Size, color, etc. can be adjusted individually using standard CSS
 
-### Example
+### Examples
 
-<img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget.png?raw=true" alt="alt text" width="800">
+<img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget.png?raw=true" alt="Website Screenshot" width="800">
+
+<img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget-2.png?raw=true" alt="Website Screenshot" width="800">
 
 ### Live Implementations
 
