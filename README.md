@@ -1,5 +1,5 @@
 # Nexxchange TeeTime Widget
-TeeTime widget to book within the Nexxchange portal <https://www.nexxchange.com>
+TeeTime widget to book within the Nexxchange Marketplace <https://www.nexxchange.com>
 
 ## Overview
 The example HTML code <https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/index.html> shows exactly how to implement the **Nexxchange** tee time widget. 
@@ -12,7 +12,7 @@ It is only a simple copy and paste.
 
 * **issuer**
 
-	This is to define for which golfclub the tee times should get displayed.
+	This is to define for which golfclub the tee times should be displayed.
 
 * **showBookingButton**
 
@@ -20,7 +20,7 @@ It is only a simple copy and paste.
 	
 * **onlyShowAvailable**
 
-	(default: false) Optional, allows to show only available greenfees
+	(default: false) Optional, allows to show only available tee timed
 	
 * **course**
 
