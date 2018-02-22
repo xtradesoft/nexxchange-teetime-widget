@@ -32,7 +32,7 @@ It is only a simple copy and paste.
 
 	* booking: "Buchen"
 	* available: "verfügbar"
-	* noGreenfees: 'Greenfees konnten nicht geladen werden!'
+	* noGreenfees: 'Keine Startzeiten für den ausgewählten Zeitraum verfügbar.'
 
 
 The widget has one public function "reload" which accepts the following parameters
