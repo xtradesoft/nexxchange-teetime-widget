@@ -56,7 +56,7 @@
 
     <!-- 1st widget markup sample -->
     <div class="well col-md-5 teetime1">
-        <h3>Startzeiten des GC Ottenstein</h3>
+        <h3>Startzeiten des Golfclub Sonnenlage</h3>
         <div class="col-md-12">
             <div><p>Datum: <input type="text" id="datepicker"></p></div>
             <div id="teetimecontainer" class="well col-md-12 table-responsive" style="overflow: auto; max-height: 30vh;"></div>
@@ -65,7 +65,7 @@
 
     <!-- 2nd widget markup sample -->
     <div class="teetime2 well col-md-5 col-md-offset-2">
-        <h3>Startzeiten Golf Senza Confini Tarvisio</h3>
+        <h3>Startzeiten Golf Wunderschön</h3>
         <div class="col-md-12">
             <div><p>Datum: <input type="text" id="datepicker2"></p></div>
             <div id="teetimecontainer2" class="col-md-12 table-responsive" style="overflow: auto; max-height: 30vh;"></div>
@@ -86,9 +86,8 @@
 <script type="text/javascript">
     jQuery(document).ready(function onReady() {
 
-        jQuery('#teetimecontainer').teetime({issuer: "gc-ottenstein", onlyShowAvailable: true});
-
-        jQuery('#teetimecontainer2').teetime({issuer: "golf-senza-confini-tarvisio"});
+        jQuery('#teetimecontainer').teetime({issuer: "golfanlage-velden-kostenberg", onlyShowAvailable: true});
+        jQuery('#teetimecontainer2').teetime({issuer: "golfclub-spillern"});
 
         jQuery( "#datepicker" ).datepicker({
             "dateFormat": "dd.mm.yy",
