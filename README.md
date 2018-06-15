@@ -50,15 +50,19 @@ Size, color, etc. can be adjusted individually using standard CSS
 
 <img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget-2.png?raw=true" alt="Website Screenshot" width="800">
 
-### Live Implementations
+### Selection of Live Implementations
 
-[GC Drautal] (http://www.drautalgolf.at/index.php/article?id=37)
+[Golf & Seen] (http://www.golfundseen.at/startseite.html)
 
-[GC Velden] (http://www.golfvelden.at/en/book-tee-time.html)
+[Tourismusverband Attersee - Salzkammergut] (http://attersee.salzkammergut.at/sommer/golfen.html)
 
 [AlpeAdria Golf Tarvisio] (http://www.teetimealpeadriagolf.com/de/golfplatz-buchen/tarvis.html)
 
-[Golf & Seen] (http://attersee.salzkammergut.at/sommer/golfen.html)
+[GC Salzburg] (https://www.golfclub-salzburg.at/courses/tee-online/)
+
+[GC Velden] (http://www.golfvelden.at/en/book-tee-time.html)
+
+[GC Drautal] (http://www.drautalgolf.at/index.php/article?id=37)
 
 ### License
 
