@@ -34,12 +34,62 @@ It is only a simple copy and paste.
 	* available: "verfügbar"
 	* noGreenfees: 'Keine Startzeiten für den ausgewählten Zeitraum verfügbar.'
 
+* **render**
 
-The widget has one public function "reload" which accepts the following parameters
+  A custom render function. Uses returned server data to render tee times into any DOM element.
+  
+  While this method gives the highest degree of flexibility is also exposes internal data representations that might change in the future.
+  The return data currently uses the following schema:
+  
+  ```
+  {
+    issuerId?:string
+    golfCourse: {
+      courseName:string
+      teeTimes:TeeTime[]  // array of tee times
+    }
+  }
+  ```
+
+  `TeeTime` currently uses the following schema:
+
+  ```
+  {
+    courseName:string
+    teeTimes:TeeTimeSlot[] // array of tee time slots
+  }
+  ```  
+
+  `TeeTimeSlot` currently uses the following schema:
+
+  ```
+  {
+    tt:number
+    ttTime:string
+    ttDate:DateTime
+    countAvail:number facet:Seq[TeeTimeSlotFacet]
+  }
+  ```
+
+  Finally `TeeTimeSlotFacet` currently uses this schema:
+  
+  ```
+  {
+    facetName:String
+    facetId:Long
+    price?: { amount: number, currency: { code:string, symbol:string  } }
+  }
+  ```
 
 * **date** 	(dd.mm.yyyy)
 * **hour**
 * **minutes**
+
+### Helpers
+
+The widget has one public function "reload" which accepts the following parameters
+
+The widget also provides the ```createBookingButtonLink(issuerId:string,teeTimeSlot:TeeTimeSlot,facet:Facet)``` methoed to render the booking button link.
 
 ### Styling
 Size, color, etc. can be adjusted individually using standard CSS
