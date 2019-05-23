@@ -100,6 +100,8 @@ Size, color, etc. can be adjusted individually using standard CSS
 
 <img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget-2.png?raw=true" alt="Website Screenshot" width="800">
 
+<img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/Example-Image-using-widget-3.png?raw=true" alt="Website Screenshot" width="800">
+
 ### Selection of Live Implementations
 
 [Golf & Seen] (http://www.golfundseen.at/startseite.html)
@@ -113,6 +115,8 @@ Size, color, etc. can be adjusted individually using standard CSS
 [GC Velden] (http://www.golfvelden.at/en/book-tee-time.html)
 
 [GC Drautal] (http://www.drautalgolf.at/index.php/article?id=37)
+
+[Mehr Grün] (https://www.mehr-gruen.at/buchung/)
 
 ### License
 
