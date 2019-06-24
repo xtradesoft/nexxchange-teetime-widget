@@ -147,6 +147,8 @@ Invoke `renderTournamentWidget` for a given DOM element ID and pass the desired 
 </script>
 ```
 
+A full example page can be found here: [https://b2b.nexxchange.com/playground/tournament-widget.html]
+
 ## Widget Parameter Section
 
 | Name         | Type        | Description           |
