@@ -147,7 +147,9 @@ Invoke `renderTournamentWidget` for a given DOM element ID and pass the desired 
 </script>
 ```
 
-A full example page can be found here: [https://b2b.nexxchange.com/playground/tournament-widget.html]
+A full example page can be found here: https://b2b.nexxchange.com/playground/tournament-widget.html
+
+<img src="https://github.com/xtradesoft/nexxchange-teetime-widget/blob/master/example/img/tournament-widget.png?raw=true" alt="Tournament Widget in Action" width="800">
 
 ## Widget Parameter Section
 
@@ -238,7 +240,3 @@ The spinner will be replaced by a reload icon. Clicking on the icon will trigger
 ### License
 
 Apache
-
-
-
-
