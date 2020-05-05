@@ -12,7 +12,8 @@ It is only a simple copy and paste.
 
 * **issuer**
 
-	This is to define for which `golfclub` the tee times should be displayed.
+	Used to specify the golf club for which to display tee times.
+	The value should be set to the golf clubs issuer ID (see [How to find the issuer ID?](#how-to-find-the-correct-issuer-id))
 
 * **showBookingButton**
 
@@ -155,7 +156,7 @@ A full example page can be found here: https://b2b.nexxchange.com/playground/tou
 
 | Name         | Type        | Description           |
 | -------------|-------------|-----------------------|
-| issuerId     | string      | The ID of the golfclub (see [How to find the issuer ID?](#how-to-find-the-issuer-id?)) |
+| issuerId     | string      | The ID of the golfclub (see [How to find the issuer ID?](#how-to-find-the-correct-issuer-id)) |
 | fromDate     | Date        | Lower bound for tounament date, the upper bound is fixed to `fromDate` + 1 year |
 | lang         | string      | Language used to render tournament widget: `en`, `da`, `de`, `es`, `fr`, `it`, `no`, `sv`. Date picker will show names of month and weekdays in the selected language.
 | spinner      | string      | `donat` or `donat multi` or `ripple` |
