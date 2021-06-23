@@ -105,15 +105,13 @@ Size, color, etc. can be adjusted individually using standard CSS
 
 ### Selection of Live Implementations
 
-[Golf & Seen] (http://www.golfundseen.at/startseite.html)
+[Golf & Seen] (https://www.golfundseen.at/startseite.html)
 
-[Tourismusverband Attersee - Salzkammergut] (http://attersee.salzkammergut.at/sommer/golfen.html)
+[Tourismusverband Attersee - Salzkammergut] (https://attersee-attergau.salzkammergut.at/aktivitaeten/sport-und-gesundheit/golf.html)
 
-[AlpeAdria Golf Tarvisio] (http://www.teetimealpeadriagolf.com/de/golfplatz-buchen/tarvis.html)
+[AlpeAdria Golf Tarvisio] (https://www.golfsenzaconfini.com/teetime/)
 
-[GC Salzburg] (https://www.golfclub-salzburg.at/courses/tee-online/)
-
-[GC Velden] (http://www.golfvelden.at/en/book-tee-time.html)
+[GC Salzburg] (https://www.golfclub-salzburg.at/startzeiten/)
 
 [GC Drautal] (http://www.drautalgolf.at/index.php/article?id=37)
 
