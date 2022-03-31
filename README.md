@@ -154,7 +154,7 @@ A full example page can be found here: https://b2b.nexxchange.com/playground/tou
 
 | Name         | Type        | Description           |
 | -------------|-------------|-----------------------|
-| issuerId     | string      | The ID of the golfclub (see [How to find the issuer ID?](#how-to-find-the-correct-issuer-id)) |
+| issuerId     | string \| [string] | Issuer IDs of the displayed golfclubs (see [How to find the issuer ID?](#how-to-find-the-correct-issuer-id)) |
 | fromDate     | Date        | Lower bound for tounament date, the upper bound is fixed to `fromDate` + 1 year |
 | lang         | string      | Language used to render tournament widget: `en`, `da`, `de`, `es`, `fr`, `it`, `no`, `sv`. Date picker will show names of month and weekdays in the selected language.
 | spinner      | string      | `donat` or `donat multi` or `ripple` |
