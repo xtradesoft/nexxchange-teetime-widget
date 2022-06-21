@@ -156,7 +156,8 @@ A full example page can be found here: https://b2b.nexxchange.com/playground/tou
 | -------------|-------------|-----------------------|
 | issuerId     | string \| [string] | Issuer IDs of the displayed golfclubs (see [How to find the issuer ID?](#how-to-find-the-correct-issuer-id)) |
 | fromDate     | Date        | Lower bound for tounament date, the upper bound is fixed to `fromDate` + 1 year |
-| lang         | string      | Language used to render tournament widget: `en`, `da`, `de`, `es`, `fr`, `it`, `no`, `sv`. Date picker will show names of month and weekdays in the selected language.
+| lang         | string      | Language used to render tournament widget: `en`, `da`, `de`, `es`, `fr`, `it`, `no`, `sv`. Date picker will show names of month and weekdays in the selected language. |
+| dateFormat   | string      | Date format used to show the selected date, e.g "dd.MM.yyyy eee" see [date-fns](https://date-fns.org/v2.28.0/docs/format) for all formatting options |
 | spinner      | string      | `donat` or `donat multi` or `ripple` |
 | hideFromDatePicker | boolean | If set to `true` the date picker will be hidden, you can use the [Widget API](#widget-api) to update the from date programatically. |
 | maxResults   | integer     | maximum number of displayed tournaments, maxResults is capped to 10 entries. |
