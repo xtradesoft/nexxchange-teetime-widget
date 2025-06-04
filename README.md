@@ -113,7 +113,7 @@ Size, color, etc. can be adjusted individually using standard CSS
 
 [GC Salzburg] (https://www.golfclub-salzburg.at/startzeiten/)
 
-[GC Drautal] (http://www.drautalgolf.at/index.php/article?id=37)
+[GC Drautal] (https://www.drautalgolf.at/tee-time)
 
 [Mehr Grün] (https://www.mehr-gruen.at/buchung/)
 
